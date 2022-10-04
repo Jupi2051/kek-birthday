@@ -9,6 +9,15 @@ TagManager:
   - NPC
   - SyrenScreen
   - Door
+  - PC
+  - KekShadow
+  - BombBalloon
+  - RoomTag
+  - Music
+  - Radio
+  - DialogueAudio
+  - GiftImage
+  - GiftText
   layers:
   - Default
   - TransparentFX
@@ -17,8 +26,8 @@ TagManager:
   - Water
   - UI
   - Video
-  - 
-  - 
+  - Balloon
+  - Bomb Balloon
   - 
   - 
   - 
@@ -45,4 +54,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Hide
+    uniqueID: 265038731
+    locked: 0
+  - name: Not Hide
+    uniqueID: 4097506291
     locked: 0

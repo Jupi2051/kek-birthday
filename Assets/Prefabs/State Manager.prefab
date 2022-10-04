@@ -45,3 +45,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractToolTip: {fileID: 3267391813908824999, guid: 1798b9be78fc8fd4ca645ea04362defe, type: 3}
+  CharacterNames:
+  - Chloe
+  - Jenni
+  - Kek
+  - Nyah
+  - Seth
+  - Syren
+  - Taltus
+  - Yumi
+  - Yuu
+  - Defining
+  - Nyan
+  - Sin
+  - Raiden
+  - Balloon
+  - Radio
+  CharacterImages:
+  - {fileID: 21300000, guid: 90d586f7f30bb9c4b819136d914c9c85, type: 3}
+  - {fileID: 21300000, guid: affa1f3434a2168489b169d122efd97e, type: 3}
+  - {fileID: 21300000, guid: 012eaf522fbb6404f9c0873e57cb39db, type: 3}
+  - {fileID: 21300000, guid: 1c68e784bb4d9bc4d9867a19793f24db, type: 3}
+  - {fileID: 21300000, guid: 632f3e8c8410f5e4ab255d4523a22ed4, type: 3}
+  - {fileID: 21300000, guid: 144703b6a99bf8c4c8b65494e230dea2, type: 3}
+  - {fileID: 21300000, guid: 6058c3f390199e84fb31c3b68f3d90c1, type: 3}
+  - {fileID: 21300000, guid: cb6d5db49fa9d6347ae8e6812932f9c1, type: 3}
+  - {fileID: 21300000, guid: 8cbaf30af195cf34f810bdf59004cc57, type: 3}
+  - {fileID: 21300000, guid: d893d782026ada14294ea682459436eb, type: 3}
+  - {fileID: 21300000, guid: eff731a2a2f80fa428fa654f4b567355, type: 3}
+  - {fileID: 21300000, guid: 07eb5603917f4cd4da29b2fc10e5bfe9, type: 3}
+  - {fileID: 21300000, guid: bb24bbdb5e1c8ba45b267f0a6f17b786, type: 3}
+  - {fileID: 21300000, guid: 045aa208a5b92134180b65ba809aaae3, type: 3}
+  - {fileID: 21300000, guid: 53ee5198ee88cde4aa48af69d02607e4, type: 3}

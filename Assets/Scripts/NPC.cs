@@ -1,32 +1,33 @@
+using Assets.Scripts.OOPWork;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(DialogueLines))]
 public class NPC : MonoBehaviour, IInteractable
 {
     public StateManager stateManager;
     public int CurrentReplyIndex = 0;
     public bool ResetConversationOnEnd = true;
     public float ToolTipHeight = 0.5f;
-
+    public SpeechUnits Dialogus;
+    public DialogueUI DialogueUI;
     private ToolTipScript ToolTipStorage;
 
-
-    public List<string> Replies = new()
+    // Start is called before the first frame update
+    void Start()
     {
-        "Alo Babi",
-        "quit Talking",
-        "you're getting so annoying",
-        "dame da ne dame yo dame an no yo anta ga suki de suki sugite dore da ke",
-    };
+        DialogueUI = FindObjectOfType<DialogueUI>();
+        stateManager = GameObject.FindWithTag("StateManager").GetComponent<StateManager>();
+    }
 
     public void Interact()
     {
-        print(Replies[CurrentReplyIndex]);
-        CurrentReplyIndex++;
-        if (CurrentReplyIndex == Replies.Count)
+        if (!DialogueUI.CurrentlyActive)
         {
-            CurrentReplyIndex = ResetConversationOnEnd? 0 : Replies.Count - 1;
+            //DialogueUI.StartDialogue(Dialogus.GetActiveDialogue(), gameObject.GetComponent<NPC>());
+            DialogueUI.StartDialogue(Dialogus.GetActiveDialogue(), Dialogus);
         }
     }
 
@@ -45,17 +46,5 @@ public class NPC : MonoBehaviour, IInteractable
         {
             ToolTipStorage.Despawn();
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        stateManager = GameObject.FindWithTag("StateManager").GetComponent<StateManager>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

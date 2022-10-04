@@ -57,13 +57,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SpokenText.cs" />
+    <Compile Include="Assets\Scripts\OOPWork\SpeechUnit.cs" />
     <Compile Include="Assets\Scripts\NPC.cs" />
+    <Compile Include="Assets\Scripts\DialogueUI.cs" />
     <Compile Include="Assets\Scripts\ToolTipScript.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\OOPWork\SpeechUnits.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\DialogueLines.cs" />
+    <Compile Include="Assets\Scripts\OOPWork\SpeechSingleTextContent.cs" />
+    <Compile Include="Assets\Scripts\ComputerInteract.cs" />
+    <Compile Include="Assets\Scripts\SceneLoaderInteract.cs" />
     <Compile Include="Assets\Scripts\MarioController.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
+    <Compile Include="Assets\Scripts\OOPWork\SpeechSingleContentStruct.cs" />
+    <Compile Include="Assets\Scripts\Cutscene\Sequence.cs" />
     <Compile Include="Assets\Scripts\SyrenScreen.cs" />
+    <Compile Include="Assets\Scripts\IntroTriggers.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\BirdsIntro.cs" />
+    <Compile Include="Assets\Scripts\Radio.cs" />
+    <Compile Include="Assets\Scripts\GiftController.cs" />
+    <Compile Include="Assets\Scripts\GiftManager.cs" />
+    <Compile Include="Assets\Scripts\AnimationSoundReceiever.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

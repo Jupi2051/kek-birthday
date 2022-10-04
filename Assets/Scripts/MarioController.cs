@@ -27,29 +27,44 @@ public class MarioController : MonoBehaviour
 	public IInteractable Latestinteractable;
 
 	public List<string> InteractableTags = new List<string>();
-	public bool CanPlayerMove = true;
+	public bool CanPlayerMove;
 
-	void Start ()
+    public DialogueUI DialogueUI;
+
+	public GameObject Shadow;
+
+	public float ShadowDistance;
+
+	public AudioSource L;
+	public AudioSource R;
+
+    void Start ()
 	{
-		isDead = false;
+        DialogueUI = FindObjectOfType<DialogueUI>();
+        isDead = false;
 		isJumping = false;
-		Anim = GetComponent<Animator> ();
-		RB2D = GetComponent<Rigidbody2D> ();
+		Anim = GetComponentInChildren<Animator> ();
+		RB2D = GetComponent<Rigidbody2D>();
+		Shadow = GameObject.FindWithTag("KekShadow");
 		//JumpFX = GameObject.Find ("JumpFX").GetComponent<AudioSource>();
 		//StompFX = GameObject.Find ("StompFX").GetComponent<AudioSource>();
-        PivPoint = gameObject.transform.position + new Vector3(0, -0.4f);
+		PivPoint = gameObject.transform.position + new Vector3(0, -0.4f);
 	}
 
 	public void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (collision.gameObject.CompareTag("NPC"))
-			LatestNPC = collision.gameObject.GetComponent<NPC>();
-
+		{
+			Latestinteractable = null;
+            LatestNPC = collision.gameObject.GetComponent<NPC>();
+		}
+		
 		if (InteractableTags.Contains(collision.gameObject.tag))
 		{
+			LatestNPC = null;
 			Latestinteractable = (IInteractable)collision.gameObject.GetComponent(typeof(IInteractable));
         }
-	}
+    }
 
 	public void OnTriggerExit2D(Collider2D collision)
 	{
@@ -62,10 +77,17 @@ public class MarioController : MonoBehaviour
 
 	void Update()
 	{
-		if (CanPlayerMove)
+		Shadow.transform.position = new Vector3(Shadow.transform.position.x, Shadow.transform.position.y, ShadowDistance);
+
+        if (CanPlayerMove)
 		{
 			if (Input.GetKeyDown(KeyCode.E))
 			{
+				if (DialogueUI.CurrentlyActive)
+				{
+                    DialogueUI.RollText();
+					return;
+                }
 				if (LatestNPC != null)
 				{
 					LatestNPC.Interact();
@@ -78,12 +100,6 @@ public class MarioController : MonoBehaviour
 				}
 			}
 		}
-	}
-
-	void OnDrawGizmos()
-	{
-		Gizmos.DrawSphere(PivPoint, radius);
-		Gizmos.DrawLine(PivPoint, new Vector3(transform.position.x, transform.position.y, transform.position.z));
 	}
 
 	public void EnableMovement()
@@ -99,79 +115,91 @@ public class MarioController : MonoBehaviour
 	void FixedUpdate ()
 	{
 		PivPoint = gameObject.transform.position + new Vector3(0, -0.4f);
-		if (!CanPlayerMove) return; 
-		if (!isDead)
+		if (!CanPlayerMove || DialogueUI.CurrentlyActive)
 		{
-			if (Input.GetAxis ("Horizontal") > 0) // right
+			Anim.SetBool("isRunning", false);
+			return;
+		}
+
+		if (Input.GetAxis ("Horizontal") > 0) // right
+		{
+			transform.rotation = Quaternion.Euler (0, 180, 0);
+			Anim.SetBool("isRunning", true);
+			if (Mathf.Abs(RB2D.velocity.x) < MaximumVelocity)
 			{
-				transform.rotation = Quaternion.Euler (0, 180, 0);
-				//Anim.SetBool ("isRunning", true);
-				if (Mathf.Abs(RB2D.velocity.x) < MaximumVelocity)
+				if (isJumping)
+					RB2D.velocity = new Vector2(RB2D.velocity.x + JumpyAirAcceleration, RB2D.velocity.y);
+				else
+					RB2D.velocity = new Vector2(RB2D.velocity.x + Acceleration, RB2D.velocity.y);
+			}
+			else if (Mathf.Abs(RB2D.velocity.x) >= MaximumVelocity)
+			{
+				RB2D.velocity = new Vector2(MaximumVelocity, RB2D.velocity.y);
+			}
+		}
+		else if (Input.GetAxis("Horizontal") < 0) // left
+		{
+			transform.rotation = Quaternion.Euler (0, 0, 0);
+			Anim.SetBool("isRunning", true);
+			if (Mathf.Abs(RB2D.velocity.x) < MaximumVelocity)
+				if (isJumping)
+					RB2D.velocity = new Vector2(RB2D.velocity.x - JumpyAirAcceleration, RB2D.velocity.y);
+				else
+					RB2D.velocity = new Vector2(RB2D.velocity.x - Acceleration, RB2D.velocity.y);
+			else if (Mathf.Abs(RB2D.velocity.x) >= MaximumVelocity)
+				RB2D.velocity = new Vector2(-MaximumVelocity, RB2D.velocity.y);
+		}
+		else if (Input.GetAxis("Horizontal") == 0) // stop
+		{
+			Anim.SetBool("isRunning", false);
+			if (RB2D.velocity.x > 0)
+			{
+				if (!isJumping)
 				{
-					if (isJumping)
-						RB2D.velocity = new Vector2(RB2D.velocity.x + JumpyAirAcceleration, RB2D.velocity.y);
-					else
-						RB2D.velocity = new Vector2(RB2D.velocity.x + Acceleration, RB2D.velocity.y);
+					RB2D.velocity = new Vector2 (RB2D.velocity.x - Acceleration, RB2D.velocity.y);
+					if (RB2D.velocity.x <= 0.01f)
+					{
+						RB2D.velocity = new Vector2(0, RB2D.velocity.y);
+					}
 				}
-				else if (Mathf.Abs(RB2D.velocity.x) >= MaximumVelocity)
+				else
 				{
-					RB2D.velocity = new Vector2(MaximumVelocity, RB2D.velocity.y);
+					RB2D.velocity = new Vector2 (RB2D.velocity.x - AirAcceleration, RB2D.velocity.y);
+					if (RB2D.velocity.x <= 0.01f)
+					{
+						RB2D.velocity = new Vector2(0, RB2D.velocity.y);
+					}
 				}
 			}
-			else if (Input.GetAxis("Horizontal") < 0) // left
+			else if(RB2D.velocity.x < 0)
 			{
-				transform.rotation = Quaternion.Euler (0, 0, 0);
-				//Anim.SetBool ("isRunning", true);
-				if (Mathf.Abs(RB2D.velocity.x) < MaximumVelocity)
-					if (isJumping)
-						RB2D.velocity = new Vector2(RB2D.velocity.x - JumpyAirAcceleration, RB2D.velocity.y);
-					else
-						RB2D.velocity = new Vector2(RB2D.velocity.x - Acceleration, RB2D.velocity.y);
-				else if (Mathf.Abs(RB2D.velocity.x) >= MaximumVelocity)
-					RB2D.velocity = new Vector2(-MaximumVelocity, RB2D.velocity.y);
-			}
-			else if (Input.GetAxis("Horizontal") == 0) // stop
-			{
-				//Anim.SetBool ("isRunning", false);
-				if (RB2D.velocity.x > 0)
+				if (!isJumping)
 				{
-					if (!isJumping)
+					RB2D.velocity = new Vector2 (RB2D.velocity.x + Acceleration, RB2D.velocity.y);
+					if (RB2D.velocity.x >= 0.01f)
 					{
-						RB2D.velocity = new Vector2 (RB2D.velocity.x - Acceleration, RB2D.velocity.y);
-						if (RB2D.velocity.x <= 0.01f)
-						{
-							RB2D.velocity = new Vector2(0, RB2D.velocity.y);
-						}
-					}
-					else
-					{
-						RB2D.velocity = new Vector2 (RB2D.velocity.x - AirAcceleration, RB2D.velocity.y);
-						if (RB2D.velocity.x <= 0.01f)
-						{
-							RB2D.velocity = new Vector2(0, RB2D.velocity.y);
-						}
+						RB2D.velocity = new Vector2(0, RB2D.velocity.y);
 					}
 				}
-				else if(RB2D.velocity.x < 0)
+				else
 				{
-					if (!isJumping)
+					RB2D.velocity = new Vector2 (RB2D.velocity.x + AirAcceleration, RB2D.velocity.y);
+					if (RB2D.velocity.x >= 0.01f)
 					{
-						RB2D.velocity = new Vector2 (RB2D.velocity.x + Acceleration, RB2D.velocity.y);
-						if (RB2D.velocity.x >= 0.01f)
-						{
-							RB2D.velocity = new Vector2(0, RB2D.velocity.y);
-						}
-					}
-					else
-					{
-						RB2D.velocity = new Vector2 (RB2D.velocity.x + AirAcceleration, RB2D.velocity.y);
-						if (RB2D.velocity.x >= 0.01f)
-						{
-							RB2D.velocity = new Vector2(0, RB2D.velocity.y);
-						}
+						RB2D.velocity = new Vector2(0, RB2D.velocity.y);
 					}
 				}
 			}
 		}
+	}
+
+	public void LeftStep()
+	{
+		L.Play();
+	}
+
+	public void RightStep()
+	{
+		R.Play();
 	}
 }

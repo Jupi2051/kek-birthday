@@ -1,0 +1,588 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1664905709549641, "dur": 1989883, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905709549653, "dur": 15378, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905709565035, "dur": 16613, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905709581724, "dur": 175333, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905709757059, "dur": 1769751, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905711526812, "dur": 12712, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905711539982, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1664905709646851, "dur": 84845, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664905709647726, "dur": 34056, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664905709718461, "dur": 3822, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664905709722286, "dur": 9402, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664905709722920, "dur": 8303, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664905709735343, "dur": 1169, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1664905709734653, "dur": 1884, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905711540060, "dur": 287, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664905709782398, "dur":1045, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905709783448, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664905709783492, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664905709783508, "dur":282, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664905709783810, "dur":406, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905709784216, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711093962, "dur":111, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094073, "dur":80, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094153, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094157, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094174, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094205, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094215, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094216, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094221, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094222, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094227, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094228, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094233, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094235, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094239, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094240, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094245, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094246, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094251, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094252, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094257, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094258, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094263, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094264, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094269, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094275, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711094286, "dur":382841, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664905709783975, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709784223, "dur":4040, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709788274, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664905709788283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709788730, "dur":191, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664905709788923, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664905709788954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709789123, "dur":4171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1664905709793295, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664905709793336, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709793367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709793374, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794170, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794206, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794255, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794891, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794933, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709794972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709795383, "dur":19634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709815054, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664905709815466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709815470, "dur":39946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664905709855440, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709855499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709856113, "dur":41066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709897204, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709897258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709897263, "dur":63612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709960895, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709960948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709960952, "dur":25214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709986188, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905709986246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905709986250, "dur":103396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710089669, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710089729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710089733, "dur":77988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710167766, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710167829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710167833, "dur":171847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710339712, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710339782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710339788, "dur":69309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710409180, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710409255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710409260, "dur":38149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710447435, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710447505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710447512, "dur":146221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710593825, "dur":29889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710623720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710623728, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710624494, "dur":17141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710641642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710641651, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710642565, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710642629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710642634, "dur":130217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710772875, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710772948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710772955, "dur":80458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710853433, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710853490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710853494, "dur":100182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664905710953703, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1664905710953733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710953738, "dur":15349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1664905710969110, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1664905710969139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710969143, "dur":5192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1664905710974361, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1664905710974390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710974398, "dur":6468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1664905710980895, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1664905710980920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664905710980925, "dur":8547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1664905710989496, "dur":104478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709784023, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709784234, "dur":4054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709788288, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664905709788362, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709788498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709815697, "dur":40564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664905709856302, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905709856374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709856636, "dur":40306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905709896970, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905709897039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709897043, "dur":38156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905709935220, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905709935271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905709935275, "dur":318535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710253846, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710253933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710253940, "dur":97954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710351916, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710352005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710352010, "dur":163350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710515394, "dur":63166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710578563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710578570, "dur":15390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710594008, "dur":284993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710879005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710879013, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710879836, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710879905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710879911, "dur":82949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664905710962886, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664905710962914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710962919, "dur":5397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664905710968340, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1664905710968438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710968442, "dur":5648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1664905710974275, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1664905710974544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710974549, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1664905710979734, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664905710979764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710979771, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1664905710983231, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1664905710983374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664905710983381, "dur":5931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1664905710989337, "dur":104626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709783998, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709784226, "dur":4099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709788325, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1664905709788365, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709788433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709793458, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1664905709794441, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1664905709794476, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709794509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709794515, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1664905709796006, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1664905709796044, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709796368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709796373, "dur":146761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1664905709943159, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905709943227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905709943231, "dur":94232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710037521, "dur":79780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710117304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710117309, "dur":16915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710134275, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710134417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710134429, "dur":58762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710193212, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710193263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710193267, "dur":99157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710292456, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710292523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710292528, "dur":66515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710359078, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710359142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710359148, "dur":36522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710395690, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710395740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710395744, "dur":144218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710539989, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710540077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710540090, "dur":178551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710718720, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710718790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710718796, "dur":58207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710777031, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710777110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710777118, "dur":176568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664905710953713, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1664905710953741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710953746, "dur":14487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1664905710968261, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664905710968289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710968294, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664905710972443, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664905710972472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710972477, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1664905710976778, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664905710976803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664905710976808, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1664905710983617, "dur":110340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709784016, "dur":214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709784230, "dur":4041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709788275, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664905709788353, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709788402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709789785, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664905709791277, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664905709791315, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709791384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709792119, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664905709792957, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793007, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793087, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793929, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793962, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709793994, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664905709795551, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664905709795585, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709795619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905709795624, "dur":1129427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664905710925082, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664905710925153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664905710925158, "dur":127872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664905711053058, "dur":40906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709784042, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709784238, "dur":4032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709788274, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1664905709788363, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709788485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709814815, "dur":40144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1664905709854988, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905709855057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709856206, "dur":40162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905709896399, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905709896483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709896489, "dur":27744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905709924254, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905709924308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905709924312, "dur":159906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710084251, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710084328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710084335, "dur":83397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710167792, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710167839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710167842, "dur":110524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710278401, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710278527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710278534, "dur":24261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710302819, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710302917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710302921, "dur":41966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710344932, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710344989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710344994, "dur":38726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710383741, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710383795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710383800, "dur":44865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710428686, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710428741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710428745, "dur":164389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710593166, "dur":3382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710596552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710596560, "dur":8006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710604599, "dur":9266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710613870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710613878, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710614523, "dur":14190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710628717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710628723, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710630096, "dur":105832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710735932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710735939, "dur":17527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710753487, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710753548, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710753571, "dur":192379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664905710945999, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1664905710946031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710946060, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1664905710947098, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1664905710947124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664905710947129, "dur":41746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1664905710988901, "dur":105059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709784063, "dur":179, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709784242, "dur":4041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709788286, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1664905709788381, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709788501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709816020, "dur":40170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1664905709856214, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905709856264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709856289, "dur":40915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905709897234, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905709897290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709897295, "dur":68384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905709965701, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905709965753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905709965757, "dur":168725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710134531, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710134664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710134674, "dur":52325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710187026, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710187103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710187107, "dur":235660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710422788, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710422846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710422850, "dur":117938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710540866, "dur":90652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710631520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710631525, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710632043, "dur":20257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710652304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710652312, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710654424, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710654452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710654457, "dur":183709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710838186, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710838246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710838251, "dur":130596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664905710968877, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1664905710969854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710969862, "dur":6940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1664905710976834, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1664905710976862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664905710976867, "dur":11393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1664905710988291, "dur":105667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905709784079, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905709784246, "dur":4039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905709788285, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664905709788355, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905709788465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905709812641, "dur":43490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1664905709856161, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905709856254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905709856281, "dur":181389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710037700, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710037775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710037780, "dur":64438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710102252, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710102318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710102325, "dur":266432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710368784, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710368906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710368913, "dur":49341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710418278, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710418341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710418346, "dur":97027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710515403, "dur":149452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710664858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710664863, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710665600, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710665653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710665657, "dur":160231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710825909, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710825967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710825970, "dur":127711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664905710953708, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664905710953733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710953738, "dur":14192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664905710967967, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664905710967993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664905710967998, "dur":21640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664905710989662, "dur":104307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709784099, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709784249, "dur":4032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709788282, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1664905709788356, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709788488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709815580, "dur":39268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1664905709854914, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905709855015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709856061, "dur":40730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905709896820, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905709896888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709896894, "dur":27325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905709924243, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905709924310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905709924313, "dur":159930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710084272, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710084359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710084365, "dur":169579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710253972, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710254028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710254032, "dur":63128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710317181, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710317237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710317242, "dur":22541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710339811, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710339880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710339885, "dur":26182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710366096, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710366168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710366174, "dur":52043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710418248, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710418317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710418322, "dur":186239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710604588, "dur":71059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710675651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710675657, "dur":43293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710718975, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710719029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710719034, "dur":91187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710810259, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710810325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710810330, "dur":135439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664905710945822, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1664905710945951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710953330, "dur":9501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1664905710962864, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1664905710962892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710962898, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1664905710967838, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1664905710967873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664905710967882, "dur":20919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1664905710988845, "dur":105120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709784120, "dur":132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709784252, "dur":4027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709788281, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1664905709788354, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709788417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709792811, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1664905709793882, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1664905709793925, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709793962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709793969, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1664905709795533, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905709795573, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709795649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905709795729, "dur":513605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710309361, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710309436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710309440, "dur":19330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710328799, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710328870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710328877, "dur":46437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710375335, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710375405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710375410, "dur":33678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710409120, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710409199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710409206, "dur":31730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710440962, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710441023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710441030, "dur":152400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710593516, "dur":37053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710630572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710630577, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710631083, "dur":28460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710659548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710659553, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710660130, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710660181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710660185, "dur":149872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710810088, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905710810117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664905710810123, "dur":201096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664905711011247, "dur":82717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709784137, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709784255, "dur":4022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709788278, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1664905709788365, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709788486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709815166, "dur":39798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1664905709854988, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905709855057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709856101, "dur":40625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905709896753, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905709896822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905709896828, "dur":140798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710037658, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710037726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905710037733, "dur":103092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710140864, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710140967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905710140976, "dur":112984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710253986, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710254036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905710254040, "dur":506067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710760128, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710760191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905710760195, "dur":49919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710810142, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710810216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905710810221, "dur":119315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905710929567, "dur":72445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905711002017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664905711002025, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664905711002731, "dur":91235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905709784150, "dur":108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905709784258, "dur":4015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905709788275, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1664905709788412, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905709788512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905709818575, "dur":36517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1664905709855122, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905709855196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905709856302, "dur":227949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710084279, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710084330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710084335, "dur":154738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710239095, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710239163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710239168, "dur":170080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710409281, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710409454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710409458, "dur":59930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710469416, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710469597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710469604, "dur":124247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710593901, "dur":59309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710653214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710653222, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710654553, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710654616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710654620, "dur":63998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710718645, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905710718725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664905710718732, "dur":375176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664905711093932, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1664905711093934, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905709784167, "dur":94, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905709784261, "dur":4014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905709788277, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1664905709788354, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905709788447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905709810224, "dur":44635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1664905709854898, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1664905709854927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905709855934, "dur":456331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1664905710312288, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710312354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905710312359, "dur":27429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710339815, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710339872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905710339878, "dur":146955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710486918, "dur":56706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710543631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905710543638, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710544924, "dur":151392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710696319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905710696326, "dur":22784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710719135, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710719188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905710719193, "dur":160793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710880012, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905710880037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664905710880042, "dur":173994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jupi/Desktop/Kek/Kek Adventure_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664905711054054, "dur":39914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664905711485833, "dur":13309, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1664905711540405, "dur": 560, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664905711539968, "dur": 1009, "ph": "X", "name": "Write chrome-trace events", "args": {} },
